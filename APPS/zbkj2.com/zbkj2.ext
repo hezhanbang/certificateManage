@@ -1,0 +1,9 @@
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth, clientAuth
+subjectAltName=@SubjectAlternativeName
+
+[ SubjectAlternativeName ]
+IP.1 = 127.0.0.1
+IP.2 = 192.168.2.100
+IP.3 = 172.21.9.22
+IP.4 = 67.216.211.183
